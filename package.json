@@ -2,7 +2,15 @@
   "name": "@org/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "dev": "npx nx run org:serve:development --no-inspect",
+    "build": "npx nx run org:build:production",
+    "start": "npx nx run org:serve:production",
+    "lint": "npx nx run org:lint",
+    "test": "npx nx run org:test",
+    "clear": "npx nx reset && rm -rf node_modules && rm -rf dist && rm -rf package-lock.json && npm install",
+    "format": "npx nx format:write"
+  },
   "private": true,
   "dependencies": {
     "@nestjs/common": "^11.0.0",

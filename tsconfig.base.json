@@ -14,7 +14,19 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "strict": false,
-    "paths": {}
+    "paths": {
+      "@org/my-nest-lib": ["./libs/my-nest-lib/src/index.ts"],
+      "@org/auth": ["./libs/auth/src/index.ts"],
+      "@org/database": ["./libs/database/src/index.ts"],
+      "@org/utils": ["./libs/utils/src/index.ts"],
+      "@org/inventory": ["./libs/inventory/src/index.ts"],
+      "@org/order": ["./libs/order/src/index.ts"],
+      "@org/models": ["./libs/models/src/index.ts"],
+      "@org/config": ["./libs/config/src/index.ts"],
+      "@org/logger": ["./libs/logger/src/index.ts"],
+      "@org/admin": ["./libs/admin/src/index.ts"],
+      "@org/shared": ["./libs/shared/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
