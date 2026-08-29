@@ -5,4 +5,4 @@ import { Module } from '@nestjs/common';
   providers: [],
   exports: [],
 })
-export class UtilsModule {}
+export class PosterParlorApiUtilsModule {}
